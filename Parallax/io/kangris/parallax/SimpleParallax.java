@@ -1,4 +1,4 @@
-package io.kangris.parallex;
+package io.kangris.parallax;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,12 +11,12 @@ import com.google.appinventor.components.common.*;
 import com.google.appinventor.components.runtime.*;
 
 @DesignerComponent(category = ComponentCategory.EXTENSION, 
-                   description = "Simple Parallex<br>by kangris", 
+                   description = "Simple Parallax<br>by kangris", 
                    iconName = "images/extension.png", 
                    nonVisible = true, 
                    version = 1)
 @SimpleObject(external = true)
-public class SimpleParallex extends AndroidNonvisibleComponent implements Component{
+public class SimpleParallax extends AndroidNonvisibleComponent implements Component{
     private ComponentContainer container;
     private Activity activity;
     private Context context;
@@ -25,7 +25,7 @@ public class SimpleParallex extends AndroidNonvisibleComponent implements Compon
     private CustomScrollView mContentScrollView;
     private int y;
 
-    public SimpleParallex(ComponentContainer container) {
+    public SimpleParallax(ComponentContainer container) {
         super(container.$form());
     	  activity = container.$context();
     	  context = (Context) activity;

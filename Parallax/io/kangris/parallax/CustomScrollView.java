@@ -1,4 +1,4 @@
-package io.kangris.parallex;
+package io.kangris.parallax;
     
 import android.content.Context;
 import android.util.AttributeSet;
