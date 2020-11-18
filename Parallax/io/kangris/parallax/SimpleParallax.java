@@ -53,7 +53,12 @@ public class SimpleParallax extends AndroidNonvisibleComponent implements Compon
   
    
     @SimpleFunction
-    public void ScrollToParallex(int y){
+    public void ScrollContent(int y){
+        mContentScrollView.scrollTo(0, (int)(y / 2f));
+    }
+
+    @SimpleFunction
+    public void ScrollBackgroud(int y){
         mBgScrollView.scrollTo(0, (int)(y / 2f));
     }
 
